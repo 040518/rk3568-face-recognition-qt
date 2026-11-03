@@ -1,0 +1,12 @@
+#!/bin/sh
+
+case "${1:-}" in
+    start|restart|reload)
+        sleep 2
+        printf '%s\n' 'output:all:rotate0' >/tmp/.weston_drm.conf
+        ;;
+    stop)
+        ;;
+esac
+
+exit 0
