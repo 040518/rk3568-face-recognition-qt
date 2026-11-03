@@ -89,7 +89,7 @@ aarch64/librknnrt.so
 在 Ubuntu SDK 主机设置环境变量后编译：
 
 ```bash
-git clone <your-repository-url> rk3568-face-recognition-qt
+git clone https://github.com/040518/rk3568-face-recognition-qt.git
 cd rk3568-face-recognition-qt
 
 export SDK_ROOT=/path/to/buildroot/output/host
